@@ -1,0 +1,12 @@
+# nuxt.js build output
+.nuxt
+
+# Nuxt generate
+dist
+coverage
+
+data
+sw.*
+static/sitemap*
+*rc.{js,ts,vue}
+*.config.{js,ts,vue}

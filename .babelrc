@@ -1,0 +1,21 @@
+{
+  "env": {
+    "test": {
+      "presets": [
+        [
+          "@babel/preset-env",
+          {
+            "targets": {
+              "node": "current"
+            }
+          }
+        ]
+      ],
+      "plugins": [
+        "@babel/plugin-syntax-dynamic-import",
+        "dynamic-import-node-babel-7",
+        "@babel/plugin-syntax-jsx"
+      ]
+    }
+  }
+}
